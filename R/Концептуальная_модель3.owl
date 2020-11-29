@@ -1,0 +1,3206 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/x7plsRF2w5r4dw3g0tiwr#"
+     xml:base="http://webprotege.stanford.edu/project/x7plsRF2w5r4dw3g0tiwr"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/x7plsRF2w5r4dw3g0tiwr"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBi6WWqx8Ai8CfmHA1AbF3E -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RBi6WWqx8Ai8CfmHA1AbF3E">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCUhLPfEPL5YNaT2spdLOpb -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RCUhLPfEPL5YNaT2spdLOpb">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definitionSource</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Mo2jb4u3OYRV5MwteUpy -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/R8Mo2jb4u3OYRV5MwteUpy">
+        <rdfs:label>fl</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7ZwpeqJYwS4lBM5nvhiZf -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RB7ZwpeqJYwS4lBM5nvhiZf">
+        <rdfs:label>time</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCM0QO75TBrj4IRIPOejg7 -->
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/RCCM0QO75TBrj4IRIPOejg7">
+        <rdfs:label>Array</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1KeSqgkPTyRcG886lrbUV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R1KeSqgkPTyRcG886lrbUV">
+        <rdfs:label>Проживает</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Ume6nbD3nCsK9uQxzFzqn -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7Ume6nbD3nCsK9uQxzFzqn">
+        <rdfs:label>МожетИметь</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8gSWkrJt4Oi7mJyukqPwUr -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8gSWkrJt4Oi7mJyukqPwUr">
+        <rdfs:label>НаходитсяНаТерритории</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hd38It4EwgS5tadFZisyo -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8hd38It4EwgS5tadFZisyo">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">МожетЖитьНаТерритории</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8npyK3jhgTLxOFUUnlPb1R -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8npyK3jhgTLxOFUUnlPb1R">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">МожетПользоваться</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8seznRZOQ7ucZWqg4ZcBo -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8seznRZOQ7ucZWqg4ZcBo">
+        <rdfs:label>МожетЗарегистрировать</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wrVa1FELDU7xPVJg9L7qo -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8wrVa1FELDU7xPVJg9L7qo">
+        <rdfs:label>МожетВладеть</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9EUviJVauo2GccF6NhpsTQ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9EUviJVauo2GccF6NhpsTQ">
+        <rdfs:label>Может</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9EVWcg2If2o2z1OON7ClOs -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9EVWcg2If2o2z1OON7ClOs">
+        <rdfs:label>РегистрируетсяВ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9eUqyxS3MG4MMcztNvWvus -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9eUqyxS3MG4MMcztNvWvus">
+        <rdfs:label>Управляет</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ufdORBRlk0t8r1DeJmWyN -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9ufdORBRlk0t8r1DeJmWyN">
+        <rdfs:label>СостоитВ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ygyqQhylsCB24oIuFo9SD -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9ygyqQhylsCB24oIuFo9SD">
+        <rdfs:label>МожетБытьГражданином</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB3biMfJfE4Qqp6S0p4ySZw -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB3biMfJfE4Qqp6S0p4ySZw">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">РаботаетВ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBln93TmrUlyMmcwTUtcKFQ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBln93TmrUlyMmcwTUtcKFQ">
+        <rdfs:label>МожетОбратиться</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBnp6svA27U7MhmmUfqqba8 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBnp6svA27U7MhmmUfqqba8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>РассчитываетсяПо</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzddgoxsuMsP8Lxl5uRItu -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBzddgoxsuMsP8Lxl5uRItu">
+        <rdfs:label>Получает</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCRuRWaatvgIBU2X1s8iZE5 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCRuRWaatvgIBU2X1s8iZE5">
+        <rdfs:label>Оформляет</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCTOahHMbElfTTbe0tCzZZq -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCTOahHMbElfTTbe0tCzZZq">
+        <rdfs:label>МожетРаботать</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RClebvVhGV63yBCxY2IPmfD -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RClebvVhGV63yBCxY2IPmfD">
+        <rdfs:label>МожетСоответствовать</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCvvzp7qXpPjLiEZAfaB1Jg -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCvvzp7qXpPjLiEZAfaB1Jg">
+        <rdfs:label>МожетРеализовать</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDCE1kFeQyGtHTCHZmbp1TU -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDCE1kFeQyGtHTCHZmbp1TU">
+        <rdfs:label>МожетБыть</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFtorvArpJcN3JrkZIQL8 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDFtorvArpJcN3JrkZIQL8">
+        <rdfs:label>МожетУчаствовать</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRN02o7ZVqRJJCB8sd1JM6 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDRN02o7ZVqRJJCB8sd1JM6">
+        <rdfs:label>МожетСостоять</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of">
+        <rdfs:label>Имеет</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWv8cO5s3pR6D6UsP8B3xI -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDWv8cO5s3pR6D6UsP8B3xI">
+        <rdfs:label>Формирует</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDbCdEC91IAZ073mpESpA0n -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDbCdEC91IAZ073mpESpA0n">
+        <rdfs:label>ОсуществляетсяПо</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkbXp4CFc8KNmKhwgn0pK -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDkbXp4CFc8KNmKhwgn0pK">
+        <rdfs:label>Финансирует</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWyfBeblWPLDgnxOKnzwqg -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RWyfBeblWPLDgnxOKnzwqg">
+        <rdfs:label>МожетПосетить</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rc1XISlOto3odpw7uSLZdV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rc1XISlOto3odpw7uSLZdV">
+        <rdfs:label>Предоставляет</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhDBlnGQWw645r4yPacRxv -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RhDBlnGQWw645r4yPacRxv">
+        <rdfs:label>ВходитВ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtQBQnYbOQYWiRyJfcplwo -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RtQBQnYbOQYWiRyJfcplwo">
+        <rdfs:label>Включает</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvPmUdunq5zLodeKRhFC4Y -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RvPmUdunq5zLodeKRhFC4Y">
+        <rdfs:label>ТерриториальнаяЕдиница</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%A1%D0%BE%D1%81%D1%82%D0%BE%D0%B8%D1%82%D0%98%D0%B7 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/%D0%A1%D0%BE%D1%81%D1%82%D0%BE%D0%B8%D1%82%D0%98%D0%B7">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>СостоитИз</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%AF%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/%D0%AF%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>Является</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0YZ8pSU8vfq9dGwLGa2i6 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R0YZ8pSU8vfq9dGwLGa2i6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Вызов</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1MlhkA37gggg2Et40iq0T -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R1MlhkA37gggg2Et40iq0T">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>КоличествоКвадратныхМетров</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3lyCTDuvH5CnLOzfXCuVq -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R3lyCTDuvH5CnLOzfXCuVq">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>АдминистраторФедеральногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4WLYEVXHMl4SYWYABQmI -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R4WLYEVXHMl4SYWYABQmI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>БазовоеЗначение</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4n9jvBiTQnpSRHfzPW3wm -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R4n9jvBiTQnpSRHfzPW3wm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCQVBIqfZ5ewDfXT20OHgSG"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RB7ZwpeqJYwS4lBM5nvhiZf"/>
+        <rdfs:label>ВремяФизическойАктивностьВНеделю</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6mrqQJDcolbVvmcBOeNfy -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R6mrqQJDcolbVvmcBOeNfy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBGpeOW93OqEzlKJMTikdmw"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:label>СрокПредоставленияРазрешенияНаСтроительства</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73u0ALy3JPBT9cSaOMRsNj -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R73u0ALy3JPBT9cSaOMRsNj">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7Y7rSZHLMJJHBbrs2DIKUx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеДома</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74BMdpheTcYFOcBcsRfB4J -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R74BMdpheTcYFOcBcsRfB4J">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9rlNEbq85Nr0s0quJA9Kc7"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>Стоимость</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74qQEhzr844Izr0l59LsJ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R74qQEhzr844Izr0l59LsJ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R80TnQlIRInhKIyAVIC6VfI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Статус</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7A4iYZ52WzeVrUehfA8FJ7 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7A4iYZ52WzeVrUehfA8FJ7">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ХарактеристикаРезультата</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7AaWUGqLwTDB0aWlua0IYT -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7AaWUGqLwTDB0aWlua0IYT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBMhmC5OlIN2nlDcXXkqkHt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>АдресЦифровогоРесурса</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IDB7u3pu1h8mOu78VL2re -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7IDB7u3pu1h8mOu78VL2re">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7Y7rSZHLMJJHBbrs2DIKUx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ОбъемЖильяМногоквартирногоДома</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IVkrEu0AWNDTU4pveXvFO -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7IVkrEu0AWNDTU4pveXvFO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаОкончанияНациональногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7KwLMRoCVd2ZgqHtxYShj2 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7KwLMRoCVd2ZgqHtxYShj2">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A6%D0%B5%D0%BB%D1%8C"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>УровеньКонтроля</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7OJxJMnEfTixJB4I0K6JpE -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7OJxJMnEfTixJB4I0K6JpE">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>СтаршееДолжностноеЛицо</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QOWkMBN88cVIWOH3knoMW -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7QOWkMBN88cVIWOH3knoMW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаБазовогоЗначения</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7RK8pMeAiFmngFvl1GayVC -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7RK8pMeAiFmngFvl1GayVC">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9SuoyuwtS7E4X5GAY2fqUW"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеЗаболевания</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Rquma1kSBxAcWtSfhWrHj -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7Rquma1kSBxAcWtSfhWrHj">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидСчета</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7RvaHgTkFYvG3IroasOr2X -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7RvaHgTkFYvG3IroasOr2X">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7d5LnRHwJnxD7gA8rc6KZS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>СтатусРеализацииПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Zmd6BuwtfQss1GJzbOlvD -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7Zmd6BuwtfQss1GJzbOlvD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R80TnQlIRInhKIyAVIC6VfI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаВнесенияИзминений</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7b1Cd6HiBOyx2FZ1xhIy1W -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7b1Cd6HiBOyx2FZ1xhIy1W">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9c4FN0fS5d5sRJDbG6t40i"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеЖалобы</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7d3yYvcPDtywXuvUTXKIrg -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7d3yYvcPDtywXuvUTXKIrg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCo6FeeIzo5Sj30ve2O6GUl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>Себестоимость</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7duRz5tj9UVIRnzrkE8FA9 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7duRz5tj9UVIRnzrkE8FA9">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDvh3DzWebFWRHUP9mE1HfW"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ОтчетнаяДата</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7dyn4zxsivtaPBBlGtVSLQ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7dyn4zxsivtaPBBlGtVSLQ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеНациональногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7eqQ5UDfAyT0RAFPB736W0 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7eqQ5UDfAyT0RAFPB736W0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаРождения</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hrdS76sl76izRwuhrUiD2 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7hrdS76sl76izRwuhrUiD2">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>СуммаКредита</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7nAfLER11JosUJ5PUFA0hz -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7nAfLER11JosUJ5PUFA0hz">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>АдресЦифровогоРесурс</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7oB3BozgHkrWMICRnSZ7BA -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7oB3BozgHkrWMICRnSZ7BA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RCCM0QO75TBrj4IRIPOejg7"/>
+        <rdfs:label>Учредитель</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pJuRzIP2XPbkTmubGMuud -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7pJuRzIP2XPbkTmubGMuud">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>НоваяМодельМедицинскойОрганизацииОказывающейПервичнуюМедикоСанитарнуюПомощь</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7sHeYAMx4C61Xn70xScMic -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7sHeYAMx4C61Xn70xScMic">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RPtbga8P9x3I3xB2B31FJ4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ГеографическиеКоординатыНаселенногоПункта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7sO3C6K6dA3e6O2rmoH6NL -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7sO3C6K6dA3e6O2rmoH6NL">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>ВпервыеУстановленныеЗаболевания</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7tWsquKpN31qvaN0VhfXQ3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7tWsquKpN31qvaN0VhfXQ3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ПроцентнаяСтавка</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7tzzmtwku9QFgmBRgjwl9q -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7tzzmtwku9QFgmBRgjwl9q">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7d5LnRHwJnxD7gA8rc6KZS"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A6%D0%B5%D0%BB%D1%8C"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7v6Xzev0ZT3dCY4xNVbfai -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7v6Xzev0ZT3dCY4xNVbfai">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаличиеЦифровогоРесурса</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82MrBb8Gb99qxnGOzGY6x8 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R82MrBb8Gb99qxnGOzGY6x8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RD0MhpOsEiNDh4PqXtGEAi4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>НаличиеВозведенныхДомов</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R84laHtToFFuG6zqqkLCQi4 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R84laHtToFFuG6zqqkLCQi4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:label>СрокКредитования</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R85r3RSmbATTDUiWN58FZDU -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R85r3RSmbATTDUiWN58FZDU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RD0MhpOsEiNDh4PqXtGEAi4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ЦельЗемельногоУчастка</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8CZQk2SCTGFV9GFvt3JZnp -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8CZQk2SCTGFV9GFvt3JZnp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBMhmC5OlIN2nlDcXXkqkHt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеЦифровогоРесурса</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8IhJmAd0mIkxCp4RsxQxjr -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8IhJmAd0mIkxCp4RsxQxjr">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9SuoyuwtS7E4X5GAY2fqUW"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ТипЗаболевания</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8L4olTUJukz8fdcbYKQFMI -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8L4olTUJukz8fdcbYKQFMI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rc0JwjiuSXELf30M4UXGSE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>БлагоприятнаяСреда</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8OxegWmc0N44mvvlSjUP2h -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8OxegWmc0N44mvvlSjUP2h">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаНачалаНациональногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8TSfIPHMBRP4oDGZ4pZqZC -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8TSfIPHMBRP4oDGZ4pZqZC">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCgL1fMNBIAXlw8bcdzGcxB"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RCCM0QO75TBrj4IRIPOejg7"/>
+        <rdfs:label>Рекомендация</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dLzFw3njx7IsGQl776hO3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8dLzFw3njx7IsGQl776hO3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ШтатнаяЧисленностьМедицинскихРаботников</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8oPeleH1U3FxTYCMkvDfS1 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8oPeleH1U3FxTYCMkvDfS1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCo6FeeIzo5Sj30ve2O6GUl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>Выручка</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8vAGNvbSECtxnrrnzzJN6I -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8vAGNvbSECtxnrrnzzJN6I">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R2oeaZyOXXPMzq1AtwLnAC"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RD0MhpOsEiNDh4PqXtGEAi4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>КадастровыйНомер</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wAU7sECmBKUwCzz9V5IGv -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8wAU7sECmBKUwCzz9V5IGv">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаличиеПаспортаЗдоровья</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xjwbKBlu4ohXMvp7ot78E -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8xjwbKBlu4ohXMvp7ot78E">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаУстановленияЗаболевания</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xqPrYYu6NrM9usx5nSw0X -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8xqPrYYu6NrM9usx5nSw0X">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RPtbga8P9x3I3xB2B31FJ4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>УдаленностьОтМедицинскойОрганизации</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R92Ek9cI8rZ8MPaFjsPdRzX -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R92Ek9cI8rZ8MPaFjsPdRzX">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rc0JwjiuSXELf30M4UXGSE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ИндексКачестваГородскойСреды</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R95shlKarJP4jmDQV54EHSY -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R95shlKarJP4jmDQV54EHSY">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCo6FeeIzo5Sj30ve2O6GUl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>КоммерческиеРасходы</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96e4zI16GaeWsVC8BkFrVI -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R96e4zI16GaeWsVC8BkFrVI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НепосредственныйРуководитель</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R99TpcircY745uRryAs771w -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R99TpcircY745uRryAs771w">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>СтоимостьКвартиры</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9FCy5v6m9QLWAf17AhCLer -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9FCy5v6m9QLWAf17AhCLer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8Dw3zLwAic6hYzPn7ryaVL"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>ВключенВПрограммуФормированияСовременнойГородскойСреды</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9V9lCMOyJF4SV2FGPvmVHW -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9V9lCMOyJF4SV2FGPvmVHW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCQVBIqfZ5ewDfXT20OHgSG"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>ОтсутствиеКурения</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VipAGyrUuZJBuYJc18FIY -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9VipAGyrUuZJBuYJc18FIY">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаЗапросаЭвакуации</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9XA3ixZdlSdJmMiUDzw2xj -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9XA3ixZdlSdJmMiUDzw2xj">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RD0MhpOsEiNDh4PqXtGEAi4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеЗемельногоУчастка</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9cDUN6HiYMgsIrG47UUjnD -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9cDUN6HiYMgsIrG47UUjnD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>ПрофильнаяГоспитализация</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9eiICJSY66HrJv3CQqVCbU -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9eiICJSY66HrJv3CQqVCbU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RgifrQsSsP71FvRodacGFR"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ПаспортныеДанныеБиологическойМатери</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9fggdX8oHPNbn8r9asszz -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9fggdX8oHPNbn8r9asszz">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаМедицинскогоОсмотра</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gr1y9npgpDKcb25dYHAXQ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9gr1y9npgpDKcb25dYHAXQ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Гражданство</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9i9vTmFMzemKkUdMi5TUg3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9i9vTmFMzemKkUdMi5TUg3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ПоводКВызову-жалоба</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lzvEepX8Sjv9TxltYVmt0 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9lzvEepX8Sjv9TxltYVmt0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидЗаболевания</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9mGxqVcFg4OpM7RCjqBtH3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9mGxqVcFg4OpM7RCjqBtH3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8stQtvnBdQN6naAKGNfzYf"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%94%D0%BE%D0%BB%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Должность</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9qmyDFjqblGhiylCelzNoJ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9qmyDFjqblGhiylCelzNoJ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8Dw3zLwAic6hYzPn7ryaVL"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>БлагоустроенноеОбщественноеПространство</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9wswClHKfC1ulfyD0sixGb -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9wswClHKfC1ulfyD0sixGb">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCo6FeeIzo5Sj30ve2O6GUl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>СреднесписочнаяЧисленность</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB3puiPi1Upz0ldLHZ525Yq -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RB3puiPi1Upz0ldLHZ525Yq">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7Y7rSZHLMJJHBbrs2DIKUx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>СтатусЖилья</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB5TBdo9OoFUcqR6oWIKxX5 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RB5TBdo9OoFUcqR6oWIKxX5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>СогласиеНаЭвакуацию</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB5f7mmP6zzBAniBtaz0MD4 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RB5f7mmP6zzBAniBtaz0MD4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>РуководительНациональногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB795TcBVSImgKzaGx6MpFM -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RB795TcBVSImgKzaGx6MpFM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCo6FeeIzo5Sj30ve2O6GUl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>АдминистративныеРасходы</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB9JVZl3YZ7jA7PbdQQMz6q -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RB9JVZl3YZ7jA7PbdQQMz6q">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDfINJChulXB5OnR96rNQKh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидОрганизацииКультуры</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBB2gNm4rGybMRGx4LFytUP -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBB2gNm4rGybMRGx4LFytUP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ПричинаСмерти</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFWiS3v17SuCtOXr13OZnQ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBFWiS3v17SuCtOXr13OZnQ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаНачалаФедеральногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBIi1EFNGqIlyXrdC48RTTy -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBIi1EFNGqIlyXrdC48RTTy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDvh3DzWebFWRHUP9mE1HfW"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ФинансированиеНаОтчетнуюДату</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJkUMmAm026uajhi6lANaQ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBJkUMmAm026uajhi6lANaQ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ОКВЭД</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBOoUTIfODAB57zfpZvleOi -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBOoUTIfODAB57zfpZvleOi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаОкончанияФедеральногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBS2nyRAwue2kiAuUo1ifU -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBS2nyRAwue2kiAuUo1ifU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ЗначениеРезультата</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBTiRp5eSiiwmMYoSn9SqQx -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBTiRp5eSiiwmMYoSn9SqQx">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидКредита</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBZlqwSO2t1NzTy1nzGXa0G -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBZlqwSO2t1NzTy1nzGXa0G">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDvh3DzWebFWRHUP9mE1HfW"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеЗадачи</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBat5gDwEo5pGlsOM2yGZlO -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBat5gDwEo5pGlsOM2yGZlO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>МестоОказанияМедицинскойПомощи</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcp7jugHVNCpLSZvTkRN7h -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBcp7jugHVNCpLSZvTkRN7h">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8stQtvnBdQN6naAKGNfzYf"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаПриемаНаРаботу</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBdXieOd7FlHExNAVdrybUp -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBdXieOd7FlHExNAVdrybUp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9c4FN0fS5d5sRJDbG6t40i"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ТипЖалобы</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBebz3PyrsSPtPkwrzVOnd8 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBebz3PyrsSPtPkwrzVOnd8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R2oeaZyOXXPMzq1AtwLnAC"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ОбъемНепригодногоДляПроживанияЖилищногоФонда</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBgxyCbpkX7nsQxFeinRCgo -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBgxyCbpkX7nsQxFeinRCgo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>НаличиеМобильнойМедицинскойБригады</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBjQ1wccjpQTU0AAHqgiafL -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBjQ1wccjpQTU0AAHqgiafL">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCo6FeeIzo5Sj30ve2O6GUl"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ЭкспортНесырьевыхТоваров</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlBmvwHVVlQM9utIgwG3BN -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBlBmvwHVVlQM9utIgwG3BN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ЗначениеНаОтчетнуюДату</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBllPUaXHzFXLDfGuHhxTVz -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBllPUaXHzFXLDfGuHhxTVz">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеГосударства</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwNSpNBgeIc4oZH3BVf6kt -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBwNSpNBgeIc4oZH3BVf6kt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9rlNEbq85Nr0s0quJA9Kc7"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидЗаболенивания</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0cyJS4OEYOnLnoR4cnVfs -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RC0cyJS4OEYOnLnoR4cnVfs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBMhmC5OlIN2nlDcXXkqkHt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>АктивныйПользователь</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC578r0hbkELtvTfCoJAJvd -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RC578r0hbkELtvTfCoJAJvd">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBXWQJ5AJWOcdyKwyyidob3"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеФедеральногоОрганаИспольнительнойВласти</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCEW3KccBsoBtAfAxBdWFze -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCEW3KccBsoBtAfAxBdWFze">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>КраткоеНаименованиеНациональногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCFifnUH9v7w9qYBk7OQknA -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCFifnUH9v7w9qYBk7OQknA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Пол</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJHpjHMFNRxv08uzVbUjiK -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCJHpjHMFNRxv08uzVbUjiK">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RD0MhpOsEiNDh4PqXtGEAi4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Назначение</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJrKDd8AYwNHcYhthaj6hg -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCJrKDd8AYwNHcYhthaj6hg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBMhmC5OlIN2nlDcXXkqkHt"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDfINJChulXB5OnR96rNQKh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:label>КоличествоПосещений</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCOskNeNlRFLDoLnuuxKHDS -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCOskNeNlRFLDoLnuuxKHDS">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидМедицинскихУслугПоПрограммеОбязательногоМедицинскогоСтрахования</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCZZfUFUfqbUbWqRelGqNCq -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCZZfUFUfqbUbWqRelGqNCq">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>СпособДоставки</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfo8I1htww3y0sl2rakgBB -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCfo8I1htww3y0sl2rakgBB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеФедеральногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RChM1gfj5WkHR2KVvPlu7Ot -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RChM1gfj5WkHR2KVvPlu7Ot">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>НаличиеПрограммыОбязательногоМедицинскогоСтрахования</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCjGznZ3h81aL8JzezopDWF -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCjGznZ3h81aL8JzezopDWF">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ЦельОбращенияВМедицинскуюОрганизацию</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RClkEPZ4oSbqhncZOQs2cI0 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RClkEPZ4oSbqhncZOQs2cI0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCmTCXPMLjdLpFtuxPFGYta"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:label>СрокЭкспертизыПроектнойДокументации</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnOtL8ThIGoYsuxwj5jCwT -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCnOtL8ThIGoYsuxwj5jCwT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDfINJChulXB5OnR96rNQKh"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ОбъемРеализованныхБилетов</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnUM3SCQX9HraDcokMbiRk -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCnUM3SCQX9HraDcokMbiRk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9rlNEbq85Nr0s0quJA9Kc7"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>МестоОказанияМедицинскойУслуги</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCoZ7nOTte5I5OzDZ4SGw5V -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCoZ7nOTte5I5OzDZ4SGw5V">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>РуководительФедеральногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCr4ptRf2xuLao5wj8djiKu -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCr4ptRf2xuLao5wj8djiKu">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7Y7rSZHLMJJHBbrs2DIKUx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидДома</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCwilszzK8CdRq8C7sKMnP0 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCwilszzK8CdRq8C7sKMnP0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7IkdeX9mkmhlp5KREu4ItW"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеГосударственногоОбразования</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCxxaYCjNvlvjDKLK2UKyzx -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCxxaYCjNvlvjDKLK2UKyzx">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDvh3DzWebFWRHUP9mE1HfW"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ОбщийОбъемФинансирования</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDBPDSnTTbKqoOKqyoLTdHO -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDBPDSnTTbKqoOKqyoLTdHO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>Результат</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDEfkL98s1tIFgyLMZTnM3W -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDEfkL98s1tIFgyLMZTnM3W">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаЭвакуации</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDF4dQskX9anWL6jyvXv3nA -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDF4dQskX9anWL6jyvXv3nA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9rlNEbq85Nr0s0quJA9Kc7"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаОказанияМедицинскойУслуги</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKgdXeQUbRRJPiRdKA8mjV -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDKgdXeQUbRRJPiRdKA8mjV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCQVBIqfZ5ewDfXT20OHgSG"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>УровеньПотребленияАлкоголяВНеделею</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMp3vZDwACx4veHfWsaP4k -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDMp3vZDwACx4veHfWsaP4k">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>АдминистраторНациональногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRJu5N7yrIk2h5lKviBV5v -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDRJu5N7yrIk2h5lKviBV5v">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>НаличиеЗаболевания</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDW8MUi46Ejineti6jbPomR -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDW8MUi46Ejineti6jbPomR">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9c4FN0fS5d5sRJDbG6t40i"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ТипУрегулированияЖалобы</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlbycmKNKRd8r1irMmhSkV -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDlbycmKNKRd8r1irMmhSkV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A6%D0%B5%D0%BB%D1%8C"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеЦели</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDnLhx6RRsKMAQDs20hTr5b -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDnLhx6RRsKMAQDs20hTr5b">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8Dw3zLwAic6hYzPn7ryaVL"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеОбщественногоПространства</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDnSiDP1f6CQiqTWaqy8NJP -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDnSiDP1f6CQiqTWaqy8NJP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидМедицинскойОрганизации</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDvphht4eH43VyKdGo1WIpO -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDvphht4eH43VyKdGo1WIpO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>КураторНациональногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDwQVNYS5DZAyoxlORhw7El -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDwQVNYS5DZAyoxlORhw7El">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидЭвакуации</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyqNd34MwjeF440Gy2sIei -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDyqNd34MwjeF440Gy2sIei">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R80TnQlIRInhKIyAVIC6VfI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидНормативноТехническиогоДокумента</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyxsGhwtUqRNyOlbIBPXNw -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDyxsGhwtUqRNyOlbIBPXNw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDvh3DzWebFWRHUP9mE1HfW"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ИсточникФинансирования</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGSboCzHwLSkM2JVXnVbbl -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RGSboCzHwLSkM2JVXnVbbl">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9rlNEbq85Nr0s0quJA9Kc7"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидМедицинскойУслуги</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGp6hmHdJwAL027r7JTkx8 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RGp6hmHdJwAL027r7JTkx8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ТипПоказателя</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHc8n67tZmBvYVUkKHFjWC -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RHc8n67tZmBvYVUkKHFjWC">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>МестоСмерти</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKLKx4rnFVD9rZKrtu6aaU -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RKLKx4rnFVD9rZKrtu6aaU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RD0MhpOsEiNDh4PqXtGEAi4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидВозведенногоДома</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLn7et6wFlj3LdnlUrvhQt -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RLn7et6wFlj3LdnlUrvhQt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R80TnQlIRInhKIyAVIC6VfI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеНормативноТехническиогоДокумента</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPnYsFbwi8zdrTJRjjxzNI -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RPnYsFbwi8zdrTJRjjxzNI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидЖилья</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQeQtSUrTAY0kqbYYTX7xD -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RQeQtSUrTAY0kqbYYTX7xD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>ПервичныйРынок</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSqwNlMwTM9RQ38vtjxoAS -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RSqwNlMwTM9RQ38vtjxoAS">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ОсновнойВидДеятельности</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUwnbcYkYs0mLUaVACIZ7Z -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RUwnbcYkYs0mLUaVACIZ7Z">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ГеографическиеКоординатыМедицинскойОрганизации</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVyUcDR5nb3AdXpio7UpUE -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RVyUcDR5nb3AdXpio7UpUE">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ДатаРегистрации</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RW393LU77szIP04uA3e6Oe -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RW393LU77szIP04uA3e6Oe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ЗанятостьВПроекте</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RW4mOKq5xwFlpBQLL9pa8j -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RW4mOKq5xwFlpBQLL9pa8j">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7Y7rSZHLMJJHBbrs2DIKUx"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>СостояниеДома</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYj2KrDO5UxFOPbx4wTXcw -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RYj2KrDO5UxFOPbx4wTXcw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>КураторФедеральногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RaYKASMVrU1H3hCBt5uxl3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RaYKASMVrU1H3hCBt5uxl3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDedzUcqTGxUVkiJrqiHNwC"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ЦельОбращенияВЦентрЗдоровья</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rax9AL58law2laXWilCYj0 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rax9AL58law2laXWilCYj0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>СрокРеализации</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbciZsIShmVVcdwiJO7Jh1 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RbciZsIShmVVcdwiJO7Jh1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RPtbga8P9x3I3xB2B31FJ4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>ЧисленностьНаселения</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rd2wNffTB7MLJM1pIzYOh6 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rd2wNffTB7MLJM1pIzYOh6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаСмерти</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg0E6LCCfyznSFOJi3jerK -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rg0E6LCCfyznSFOJi3jerK">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCQVBIqfZ5ewDfXT20OHgSG"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>УровеньПотребленияСоли</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgkxhTcuSZy6JLwl80KkY3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RgkxhTcuSZy6JLwl80KkY3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBMhmC5OlIN2nlDcXXkqkHt"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>НомерПользователя</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhvAtp3xWDa4FMtl5DZAs0 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RhvAtp3xWDa4FMtl5DZAs0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RmnKbFKm7KHfzvFrSCsMZq"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаимнованиеПроцедурыУслуги</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RihVsIBnDy6G7MHa31nnE3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RihVsIBnDy6G7MHa31nnE3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RPtbga8P9x3I3xB2B31FJ4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеНаселенногоПункта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rj2Ru2MonRQiycBiXG2I0p -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rj2Ru2MonRQiycBiXG2I0p">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RmnKbFKm7KHfzvFrSCsMZq"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label>ПроцедураУслугаВЭлектронномВиде</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rjg2wrCWtoR7bkidPKqy84 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rjg2wrCWtoR7bkidPKqy84">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>Возраст</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlLLaYXl8xd4CwP6Cskyfc -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RlLLaYXl8xd4CwP6Cskyfc">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R80TnQlIRInhKIyAVIC6VfI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <rdfs:label>ДатаПринятияДокумента</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rmbh7qvwj5886JcxgWKiIs -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rmbh7qvwj5886JcxgWKiIs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>НаименованиеПоказателя</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rp2coFGHhbcGC55SCqi1nq -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rp2coFGHhbcGC55SCqi1nq">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ОтветственныйИсполнитель</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpHtQcQyaPwyEdvQTbY1HI -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RpHtQcQyaPwyEdvQTbY1HI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ПоказанияБольного</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqC3nwAIzmd3uZSVFvGCQm -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RqC3nwAIzmd3uZSVFvGCQm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9rlNEbq85Nr0s0quJA9Kc7"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ТипВыбывшегоБольного</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqW2xANp9UZdbRAUm9RvU3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RqW2xANp9UZdbRAUm9RvU3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%94%D0%BE%D0%BB%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>РольВПроекте</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvCY8I5H9yz9BbkzBQMo0o -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RvCY8I5H9yz9BbkzBQMo0o">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>СвязьСГосударственнымиПрограммамиРоссийскойФедерации</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RwyN6Jo97WUhzZVC476ANs -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RwyN6Jo97WUhzZVC476ANs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ПолноеНаименованиеНациональногоПроекта</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ryw5U2lBZtWC0ZuiAgV6ie -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Ryw5U2lBZtWC0ZuiAgV6ie">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R76EPrUqEnBQgkUzHLPx6W"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>КоличествоКвартир</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RzXYeOo0E6dGl9yLpm8nIh -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RzXYeOo0E6dGl9yLpm8nIh">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ВидРегистрацииНаПриемКВрачу</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2oeaZyOXXPMzq1AtwLnAC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R2oeaZyOXXPMzq1AtwLnAC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Совокупность всех жилых помещений, находящихся на территории Российской Федерации..</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Жилищный кодекс Российской Федерации&quot; от 29.12.2004 N 188-ФЗ
+(ред. от 06.02.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ЖилищныйФонд</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R76EPrUqEnBQgkUzHLPx6W -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R76EPrUqEnBQgkUzHLPx6W">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Y7rSZHLMJJHBbrs2DIKUx"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Жилой дом, в котором квартиры имеют общие внеквартирные помещения и инженерные системы..</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Методическое пособие по содержанию и ремонту жилищного фонда. МДК 2-04.2004
+(утв. Госстроем России)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>МногоквартирныйЖилойДом</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IkdeX9mkmhlp5KREu4ItW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7IkdeX9mkmhlp5KREu4ItW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%A1%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%9F%D1%80%D0%B0%D0%B2%D0%B0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Ume6nbD3nCsK9uQxzFzqn"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDK6PsME9gz9kUub5o5LL52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Ume6nbD3nCsK9uQxzFzqn"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RPtbga8P9x3I3xB2B31FJ4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>ГосударственноеОбразование</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7MFZy3rEWNDVSSdu8zdyMu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7MFZy3rEWNDVSSdu8zdyMu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Земельные участки, участки недр, обособленные водные объекты и все, что прочно связано с землей, то есть объекты, перемещение которых без несоразмерного ущерба их назначению невозможно, в том числе леса, многолетние насаждения, здания, сооружения, трубопроводы, линии электропередачи, космические объекты, а также предприятия как имущественные комплексы;</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Протокол между Правительством Российской Федерации и Правительством Республики Беларусь от 23.03.2007 &quot;О порядке взимания косвенных налогов при выполнении работ, оказании услуг&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>НедвижимоеИмущество</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Y7rSZHLMJJHBbrs2DIKUx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Y7rSZHLMJJHBbrs2DIKUx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pO8Z9Ofm279nPLH5egl2n"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RhDBlnGQWw645r4yPacRxv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R2oeaZyOXXPMzq1AtwLnAC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">признается индивидуально-определенное здание, которое состоит из комнат, а также помещений вспомогательного использования, предназначенных для удовлетворения гражданами бытовых и иных нужд, связанных с их проживанием в таком здании</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Жилищный кодекс Российской Федерации&quot; от 29.12.2004 N 188-ФЗ (ред. от 06.02.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ЖилойДом</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7d5LnRHwJnxD7gA8rc6KZS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7d5LnRHwJnxD7gA8rc6KZS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Под проектом создания комфортной городской среды понимается комплекс мероприятий по благоустройству одной или нескольких взаимосвязанных территорий общего пользования муниципальных образований различного функционального назначения (площадей, набережных, улиц, пешеходных зон, скверов, парков, иных территорий), направленных на улучшение архитектурного облика поселений, повышение уровня санитарно-эпидемиологического и экологического благополучия жителей в малых городах и исторических поселениях, в том числе мероприятий по созданию и восстановлению дорожных покрытий, озеленению, созданию и размещению малых архитектурных форм, восстановлению или улучшению фасадов, созданию инфраструктуры, обслуживающей общественное пространство.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Постановление Правительства РФ от 07.03.2018 N 237 (ред. от 29.01.2020)
+&quot;Об утверждении Правил предоставления средств государственной поддержки из федерального бюджета бюджетам субъектов Российской Федерации для поощрения муниципальных образований - победителей Всероссийского конкурса лучших проектов создания комфортной городской среды&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ПроектСозданияКомфортнойГородскойСреды</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pO8Z9Ofm279nPLH5egl2n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7pO8Z9Ofm279nPLH5egl2n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7MFZy3rEWNDVSSdu8zdyMu"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RClebvVhGV63yBCxY2IPmfD"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R80TnQlIRInhKIyAVIC6VfI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBGpeOW93OqEzlKJMTikdmw"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCmTCXPMLjdLpFtuxPFGYta"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RmnKbFKm7KHfzvFrSCsMZq"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">здание, предназначенное для постоянного проживания или временного пребывания людей в зависимости от функционального назначения и для выполнения различного вида производственных процессов</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Приказ Росстата от 13.04.2009 N 61 (ред. от 30.04.2009) &quot;Об утверждении переписных документов Всероссийской переписи населения 2010 года&quot; (вместе с &quot;Инструкцией по составлению списков домов в городских и сельских населенных пунктах и организационных планов проведения Всероссийской переписи населения 2010 года для территориальных органов Росстата&quot;, &quot;Инструкцией по составлению списков домов в городских и сельских населенных пунктах для регистратора&quot;, &quot;Инструкцией по составлению организационного плана проведения Всероссийской переписи населения 2010 года в районе, городе&quot;, &quot;Инструкцией по эксплуатации подсистемы подготовки к проведению Всероссийской переписи населения 2010 года для составления списков домов и оргпланов&quot;)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Дом</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R80TnQlIRInhKIyAVIC6VfI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R80TnQlIRInhKIyAVIC6VfI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">документ, устанавливающий требования к объектам стандартизации, обязательный для исполнения в определ. областях деятельности, разработанный в установл. порядке и утверждённый компетентным органом.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Большой энциклопедический политехнический словарь</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>НормативноТехническийДокумент</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Dw3zLwAic6hYzPn7ryaVL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Dw3zLwAic6hYzPn7ryaVL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD0MhpOsEiNDh4PqXtGEAi4"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">свободные от транспорта территории общего пользования, в том числе пешеходные зоны, площади, улицы, скверы, бульвары, а также наземные, подземные, надземные части зданий и сооружений (галереи, пассажи, атриумы и другие), специально предназначенные для использования неограниченным кругом лиц в целях досуга, проведения массовых мероприятий, организации пешеходных потоков на территориях объектов массового посещения общественного, делового назначения, объектов пассажирского транспорта..</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Закон г. Москвы от 27.04.2005 N 14 &quot;О Генеральном плане города Москвы (основные направления градостроительного развития города Москвы)&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ОбщественноеПространство</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8aGcLZPGHgH3uxB0KslN9E -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8aGcLZPGHgH3uxB0KslN9E">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDWv8cO5s3pR6D6UsP8B3xI"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCo6FeeIzo5Sj30ve2O6GUl"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDRN02o7ZVqRJJCB8sd1JM6"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R9gdNT1YH0LvIXYoX0eAAM2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">физические лица, зарегистрированные в установленном порядке и осуществляющие предпринимательскую деятельность без образования юридического лица, главы крестьянских (фермерских) хозяйств. Физические лица, осуществляющие предпринимательскую деятельность без образования юридического лица, но не зарегистрировавшиеся в качестве индивидуальных предпринимателей в нарушение требований гражданского законодательства Российской Федерации, при исполнении обязанностей, возложенных на них настоящим Кодексом, не вправе ссылаться на то, что они не являются индивидуальными предпринимателями;</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Налоговый кодекс Российской Федерации (часть первая)&quot; от 31.07.1998 N 146-ФЗ (ред. от 27.12.2019) (с изм. и доп., вступ. в силу с 01.01.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ИндивидуальныйПредприниматель</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8stQtvnBdQN6naAKGNfzYf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8stQtvnBdQN6naAKGNfzYf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8npyK3jhgTLxOFUUnlPb1R"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R9uwzBgmfxZEZxWsOAG5qJ5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Физическое лицо, которое имеет медицинское или иное образование, работает в медицинской организации и в трудовые (должностные) обязанности которого входит осуществление медицинской деятельности, либо физическое лицо, которое является индивидуальным предпринимателем, непосредственно осуществляющим медицинскую деятельность</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 21.11.2011 N 323-ФЗ (ред. от 27.12.2019, с изм. от 13.01.2020) &quot;Об основах охраны здоровья граждан в Российской Федерации&quot; (с изм. и доп., вступ. в силу с 08.01.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">МедицинскийРаботник</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94NpgB1dQ9y7CuzrdkKxpC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R94NpgB1dQ9y7CuzrdkKxpC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Договором признается соглашение двух или нескольких лиц об установлении, изменении или прекращении гражданских прав и обязанностей.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Гражданский кодекс Российской Федерации (часть первая)&quot; от 30.11.1994 N 51-ФЗ (ред. от 16.12.2019)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Договор</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8stQtvnBdQN6naAKGNfzYf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rc1XISlOto3odpw7uSLZdV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9rlNEbq85Nr0s0quJA9Kc7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Юридическое лицо независимо от организационно-правовой формы, осуществляющее в качестве основного (уставного) вида деятельности медицинскую деятельность на основании лицензии, выданной в порядке, установленном законодательством Российской Федерации о лицензировании отдельных видов деятельности.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 21.11.2011 N 323-ФЗ (ред. от 01.04.2020) &quot;Об основах охраны здоровья граждан в Российской Федерации&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>МедицинскаяОрганизация</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9SuoyuwtS7E4X5GAY2fqUW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9SuoyuwtS7E4X5GAY2fqUW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Возникающее в связи с воздействием патогенных факторов нарушение деятельности организма, работоспособности, способности адаптироваться к изменяющимся условиям внешней и внутренней среды при одновременном изменении защитно-компенсаторных и защитно-приспособительных реакций и механизмов организма</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 21.11.2011 N 323-ФЗ (ред. от 27.12.2019, с изм. от 13.01.2020) &quot;Об основах охраны здоровья граждан в Российской Федерации&quot; (с изм. и доп., вступ. в силу с 08.01.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Заболевание</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9c4FN0fS5d5sRJDbG6t40i -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9c4FN0fS5d5sRJDbG6t40i">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Осуществляюет деятельность в сфере обязательного медицинского страхования,  страховая организация, имеющая лицензию, выданную в установленном законодательством Российской Федерации порядке. Особенности лицензирования деятельности страховых медицинских организаций определяются Правительством Российской Федерации.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 29.11.2010 N 326-ФЗ (ред. от 28.01.2020) &quot;Об обязательном медицинском страховании в Российской Федерации</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>СтраховаяМедицинскаяОрганизация</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9rlNEbq85Nr0s0quJA9Kc7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9rlNEbq85Nr0s0quJA9Kc7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RizUrCw7l9XqxOiTpAfhqa"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Медицинское вмешательство или комплекс медицинских вмешательств, направленных на профилактику, диагностику и лечение заболеваний, медицинскую реабилитацию и имеющих самостоятельное законченное значение</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 21.11.2011 N 323-ФЗ (ред. от 01.04.2020) &quot;Об основах охраны здоровья граждан в Российской Федерации&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>МедицинскаяУслуга</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vEmrLvJB7wcmodlYDznZK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vEmrLvJB7wcmodlYDznZK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUaXXKut3Lqaf0DpCEYiy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDkbXp4CFc8KNmKhwgn0pK"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7Y7rSZHLMJJHBbrs2DIKUx"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Долгосрочные ссуды, предоставляемые банками под залог недвижимости: земли, производственных и жилых зданий, сооружений. Ипотечный жилищный кредит позволяет заемщику получить в пользование жилье, оплатив относительно небольшую часть стоимости долга банку и внося процент за предоставленный кредит. Однако при этом собственником жилья остается банк вплоть до полного возврата кредита, в связи с чем оно становится объектом залога. При невозможности возврата ипотечного жилищного кредита заемщик вынужден освободить жилье, но ему возвращается оплаченная часть ипотечного кредита без возврата выплаченных ранее процентов.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Райзберг Б.А., Лозовский Л.Ш., Стародубцева Е.Б.
+&quot;Современный экономический словарь. - 6-е изд., перераб. и доп. - М.&quot;
+(ИНФРА-М, 2011)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ИпотечныйКредит</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9z1fMLcsc2EuMkliksdMqv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9z1fMLcsc2EuMkliksdMqv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Договор, в результате которого возникает финансовый актив у одной организации и финансовое обязательство или долевой инструмент - у другой</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Международный стандарт финансовой отчетности (IAS) 32 &quot;Финансовые инструменты: представление&quot; (введен в действие на территории Российской Федерации Приказом Минфина России от 28.12.2015 N 217н) (ред. от 11.07.2016)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ФинансовыйИнструмент</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB5oIHtkQE6LQ9VPj02lEzz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB5oIHtkQE6LQ9VPj02lEzz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8stQtvnBdQN6naAKGNfzYf"/>
+        <rdfs:label>СреднийМедицинскийПерсонал</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBGpeOW93OqEzlKJMTikdmw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBGpeOW93OqEzlKJMTikdmw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Разрешение на строительство представляет собой документ, который подтверждает соответствие проектной документации требованиям, установленным градостроительным регламентом</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Градостроительный кодекс Российской Федерации от 29.12.2004 N 190-ФЗ (ред. от 24.04.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>РазрешениеНаСтроительство</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Материальный носитель с зафиксированной на нем в любой форме информацией в виде текста, звукозаписи, изображения и (или) их сочетания, который имеет реквизиты, позволяющие его идентифицировать, и предназначен для передачи во времени и в пространстве в целях общественного использования и хранения</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 29.12.1994 N 77-ФЗ (ред. от 03.07.2016) &quot;Об обязательном экземпляре документов&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Документ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBMhmC5OlIN2nlDcXXkqkHt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBMhmC5OlIN2nlDcXXkqkHt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Любой вид информационного ресурса, представленный в виде последовательности дискретных (цифровых) сигналов</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Концепция модернизации муниципальных библиотек Российской Федерации на основе модельного стандарта деятельности общедоступной библиотеки (утв. Минкультуры России)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ЦифровойРесурс</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBXWQJ5AJWOcdyKwyyidob3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBXWQJ5AJWOcdyKwyyidob3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральные органы исполнительной власти, под которыми понимаются органы государственной власти (управления), выполняющие исполнительные функции государственного управления в России, в том числе</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Комментарий к Федеральному закону от 26 июля 2006 г. N 135-ФЗ &quot;О защите конкуренции (Батрова Т.А., Артемьев Е.В.) (Подготовлен для системы КонсультантПлюс, 2018)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ФедеральныйОрганИсполнительнойВласти</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2SEwuGDd0uLn1IaZNYKSI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC2SEwuGDd0uLn1IaZNYKSI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7IkdeX9mkmhlp5KREu4ItW"/>
+        <rdfs:label>ФедеральныйОкруг</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC34X4thdXLt3E2eWvqKvOT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC34X4thdXLt3E2eWvqKvOT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Книга, содержащая реестровый список, используется для регистрации документов, дел.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Райзберг Б.А., Лозовский Л.Ш., Стародубцева Е.Б.
+&quot;Современный экономический словарь. - 6-е изд., перераб. и доп. - М.&quot;
+(ИНФРА-М, 2011)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Реестр</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4EWiDfNI9D4blF3krf8Vl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC4EWiDfNI9D4blF3krf8Vl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9ufdORBRlk0t8r1DeJmWyN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R9gdNT1YH0LvIXYoX0eAAM2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cубъектам малого и среднего предпринимательства относятся зарегистрированные в соответствии с законодательством Российской Федерации и соответствующие условиям, установленным частью 1.1 настоящей статьи, хозяйственные общества, хозяйственные товарищества, хозяйственные партнерства, производственные кооперативы, потребительские кооперативы, крестьянские (фермерские) хозяйства и индивидуальные предприниматели.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 24.07.2007 N 209-ФЗ (ред. от 27.12.2019) &quot;О развитии малого и среднего предпринимательства в Российской Федерации&quot; (с изм. и доп., вступ. в силу с 01.01.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>СубъектМалогоИСреднегоПредпринимательства</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCQVBIqfZ5ewDfXT20OHgSG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCQVBIqfZ5ewDfXT20OHgSG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Инструмент, используемый для сбора информации и оценки факторов риска развития хронических болезней, называется &quot;Инструмент STEPS&quot;. Он охватывает три различных уровня или &quot;этапа&quot; оценки факторов риска: этап 1, этап 2 и этап 3.Типовая модель инструмента STEPS, которую страны используют для разработки их собственного адаптированного инструмента, содержит:
+Основной модуль (незатененный фон)
+Расширенный модуль (затененный фон)
+Варианты ответов для этапов 1, 2 и 3
+Коды, облегчающие сбор и обработку данных</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:resource="https://www.who.int/ncds/surveillance/steps/instrument/ru/"/>
+        <rdfs:label>STEPS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSBKRo0Xt1SVAfMGQeW14 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSBKRo0Xt1SVAfMGQeW14">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Хозяйствующий субъект, оказывающий финансовые услуги, - кредитная организация, профессиональный участник рынка ценных бумаг, организатор торговли, клиринговая организация, микрофинансовая организация, кредитный потребительский кооператив, страховая организация, страховой брокер, общество взаимного страхования, негосударственный пенсионный фонд, управляющая компания инвестиционных фондов, паевых инвестиционных фондов, негосударственных пенсионных фондов, специализированный депозитарий инвестиционных фондов, паевых инвестиционных фондов, негосударственных пенсионных фондов, ломбард (финансовая организация, поднадзорная Центральному банку Российской Федерации), лизинговая компания (иная финансовая организация, финансовая организация, не поднадзорная Центральному банку Российской Федерации)</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 26.07.2006 N 135-ФЗ (ред. от 27.12.2019) &quot;О защите конкуренции&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ФинансоваяОрганизация</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCgL1fMNBIAXlw8bcdzGcxB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCgL1fMNBIAXlw8bcdzGcxB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Учетная  форма N 025/у-ГС  заполняется в кабинете (отделении) медицинской профилактики после чего гражданский служащий или муниципальный служащий направляется к врачам-специалистам и на диагностические исследования, проводимые в рамках диспансеризации.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">МИНИСТЕРСТВО ЗДРАВООХРАНЕНИЯ И СОЦИАЛЬНОГО РАЗВИТИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ ПРИКАЗ от 14 декабря 2009 г. N 984н ОБ УТВЕРЖДЕНИИ ПОРЯДКА ПРОХОЖДЕНИЯ ДИСПАНСЕРИЗАЦИИ ГОСУДАРСТВЕННЫМИ ГРАЖДАНСКИМИ СЛУЖАЩИМИ ОССИЙСКОЙ ФЕДЕРАЦИИ И МУНИЦИПАЛЬНЫМИ СЛУЖАЩИМИ, ПЕРЕЧНЯ ЗАБОЛЕВАНИЙ, ПРЕПЯТСТВУЮЩИХ ПОСТУПЛЕНИЮ НА ГОСУДАРСТВЕННУЮ ГРАЖДАНСКУЮ СЛУЖБУ РОССИЙСКОЙ ФЕДЕРАЦИИ И МУНИЦИПАЛЬНУЮ СЛУЖБУ ИЛИ ЕЕ   РОХОЖДЕНИЮ, А ТАКЖЕ ФОРМЫ ЗАКЛЮЧЕНИЯ МЕДИЦИНСКОГО УЧРЕЖДЕНИЯ</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ПаспортЗдоровья</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCmTCXPMLjdLpFtuxPFGYta -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCmTCXPMLjdLpFtuxPFGYta">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Представляет собой документацию, содержащую материалы в текстовой и графической формах и (или) в форме информационной модели и определяющую архитектурные, функционально-технологические, конструктивные и инженерно-технические решения для обеспечения строительства, реконструкции объектов капитального строительства, их частей, капитального ремонта</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Протокол между Правительством Российской Федерации и Правительством Республики Беларусь от 23.03.2007 &quot;О порядке взимания косвенных налогов при выполнении работ, оказании услуг&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ПроектнаяДокументация</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCo6FeeIzo5Sj30ve2O6GUl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCo6FeeIzo5Sj30ve2O6GUl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Информация о финансовом положении экономического субъекта на отчетную дату, финансовом результате его деятельности и движении денежных средств за отчетный период, систематизированная в</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 06.12.2011 N 402-ФЗ (ред. от 26.07.2019) &quot;О бухгалтерском учете&quot; (с изм. и доп., вступ. в силу с 01.01.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>БухгалтерскаяОтчетность</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R94NpgB1dQ9y7CuzrdkKxpC"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">По кредитному договору банк или иная кредитная организация (кредитор) обязуются предоставить денежные средства (кредит) заемщику в размере и на условиях, предусмотренных договором, а заемщик обязуется возвратить полученную денежную сумму и уплатить проценты за пользование ею, а также предусмотренные кредитным договором иные платежи, в том числе связанные с предоставлением кредита.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Гражданский кодекс Российской Федерации (часть вторая)&quot; от 26.01.1996 N 14-ФЗ (ред. от 18.03.2019, с изм. от 03.07.2019)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>КредитныйДоговор</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0MhpOsEiNDh4PqXtGEAi4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD0MhpOsEiNDh4PqXtGEAi4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7MFZy3rEWNDVSSdu8zdyMu"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Земельный участок как объект права собственности и иных предусмотренных настоящим Кодексом прав на землю является недвижимой вещью, которая представляет собой часть земной поверхности и имеет характеристики, позволяющие определить ее в качестве индивидуально определенной вещи. В случаях и в порядке, которые установлены федеральным законом, могут создаваться искусственные земельные участки.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Земельный кодекс Российской Федерации&quot; от 25.10.2001 N 136-ФЗ (ред. от 27.12.2019)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ЗемельныйУчасток</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDK6PsME9gz9kUub5o5LL52 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDK6PsME9gz9kUub5o5LL52">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%A1%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%9F%D1%80%D0%B0%D0%B2%D0%B0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCvvzp7qXpPjLiEZAfaB1Jg"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7d5LnRHwJnxD7gA8rc6KZS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RtQBQnYbOQYWiRyJfcplwo"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8Dw3zLwAic6hYzPn7ryaVL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RtQBQnYbOQYWiRyJfcplwo"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rc0JwjiuSXELf30M4UXGSE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">городское или сельское поселение, муниципальный район, муниципальный округ, городской округ, городской округ с внутригородским делением, внутригородской район либо внутригородская территория города федерального значения;</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 06.10.2003 N 131-ФЗ (ред. от 27.12.2019) &quot;Об общих принципах организации местного самоуправления в Российской Федерации&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>МуниципальноеОбразование</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDedzUcqTGxUVkiJrqiHNwC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDedzUcqTGxUVkiJrqiHNwC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCRuRWaatvgIBU2X1s8iZE5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCgL1fMNBIAXlw8bcdzGcxB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>ЦентрЗдоровья</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDfINJChulXB5OnR96rNQKh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDfINJChulXB5OnR96rNQKh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Под организацией культуры понимается организация, созданная учредителем (собственником или уполномоченным им органом) для осуществления культурной деятельности некоммерческого характера, финансируемая им полностью или частично и пользующаяся имуществом учредителя на праве оперативного управления</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Постановление Правительства РФ от 26.06.1995 N 609 (ред. от 23.12.2002) &quot;Об утверждении Положения об основах хозяйственной деятельности и финансирования организаций культуры и искусства&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ОрганизацияКультуры</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDkcssUvp5D5N1YvDnT4NnY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDkcssUvp5D5N1YvDnT4NnY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSBKRo0Xt1SVAfMGQeW14"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rc1XISlOto3odpw7uSLZdV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RUaXXKut3Lqaf0DpCEYiy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Кредитная организация, которая имеет исключительное право осуществлять в совокупности следующие банковские операции: привлечение во вклады денежных средств физических и юридических лиц, размещение указанных средств от своего имени и за свой счет на условиях возвратности, платности, срочности, открытие и ведение банковских счетов физических и юридических лиц</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 02.12.1990 N 395-1 (ред. от 27.12.2019) &quot;О банках и банковской деятельности&quot; (с изм. и доп., вступ. в силу с 08.01.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Банк</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDvh3DzWebFWRHUP9mE1HfW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDvh3DzWebFWRHUP9mE1HfW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDbCdEC91IAZ073mpESpA0n"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7IkdeX9mkmhlp5KREu4ItW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Обеспечение необходимыми финансовыми ресурсами всего хозяйства страны, регионов, предприятий, предпринимателей, граждан, а также различных экономических программ и видов экономической деятельности. Финансирование осуществляется из собственных, внутренних источников и из внешних источников в виде ассигнований из средств бюджета, кредитных средств, иностранной помощи, взносов других лиц.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Приложение к решению Федеральной службы по интеллектуальной собственности, патентам и товарным знакам от 27.04.2009 по заявке N 2007731256/50 ЗАКЛЮЧЕНИЕ КОЛЛЕГИИ ПАЛАТЫ ПО ПАТЕНТНЫМ СПОРАМ ОТ 5 МАРТА 2009 ГОДА</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Финансирование</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPtbga8P9x3I3xB2B31FJ4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPtbga8P9x3I3xB2B31FJ4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Часть территории, имеющая сосредоточенную застройку в пределах фиксированной границы и служащая постоянным и преимущественным местом проживания и жизнедеятельности людей, либо группа населенных пунктов, не являющиеся  административной территориальной единицей (город районного подчинения, поселок городского типа (рабочий или дачный, сельский населенный пункт)</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Определение Верховного Суда РФ от 11.04.2007 N 4-Г07-7 Об оставлении без изменения решения Московского областного суда от 01.12.2006 об отказе в оспаривании и признании недействующими постановлений губернатора Московской области от 19.07.2004 N 138-ПГ &quot;Об объединении некоторых поселений Домодедовского района Московской области&quot; и от 13.09.2004 N 199-ПГ &quot;Об объединении дачного поселка Белые Столбы Домодедовского района Московской области и города Домодедово Московской области&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>НаселенныйПункт</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUaXXKut3Lqaf0DpCEYiy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUaXXKut3Lqaf0DpCEYiy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9z1fMLcsc2EuMkliksdMqv"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCsaoCoRM1rYEECHuJXFoBx"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Заем в денежной или товарной форме, предоставляемый кредитором заемщику на условиях возвратности, чаще всего с выплатой заемщиком процента за пользование займом. Различают следующие основные формы кредита: краткосрочный, выдаваемый, как правило, на срок до года, предназначенный преимущественно для формирования оборотных средств предприятий, фирм; долгосрочный, предоставляемый на срок свыше года и используемый в основном в качестве инвестиционного капитала; гарантированный, предоставляемый под гарантию, под обеспечение; государственный, в котором в качестве заемщика выступает государство, а в роли кредитора - физические и юридические лица, приобретающие государственные ценные бумаги (облигации, казначейские сертификаты и др.); банковский, предоставляемый банками в денежной форме; потребительский, предоставляемый потребителям товаров и услуг и используемый для удовлетворения потребительских нужд; коммерческий, предоставляемый юридическими и физическими лицами друг другу по долговым обязательствам или предоставляемый в товарной форме продавцами покупателям (продажа в рассрочку); международный (иностранный), предоставляемый продающей стороной покупающей стороне в форме аванса для закупки товаров у продающей стороны; ипотечный, предоставляемый под залог недвижимости.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Райзберг Б.А., Лозовский Л.Ш., Стародубцева Е.Б.
+&quot;Современный экономический словарь. - 6-е изд., перераб. и доп. - М.&quot;
+(ИНФРА-М, 2011)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Кредит</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rc0JwjiuSXELf30M4UXGSE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rc0JwjiuSXELf30M4UXGSE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPtbga8P9x3I3xB2B31FJ4"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Населенный пункт, имеющий статус города в соответствии с нормативным правовым актом, принятым субъектом Российской Федерации</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Распоряжение Правительства РФ от 23.03.2019 N 510-р (ред. от 05.11.2019) &lt;Об утверждении Методики формирования индекса качества городской среды&gt;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Город</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rfd3BlKuRt5CcQFc0N0Xj1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Медицинская документация учетная форма N 110/у</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Утверждена Приказом Министерства здравоохранения и социального развития Российской Федерации от 2 декабря 2009 г. N 942</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>КартаВызоваСкоройМедицинскойПомощи</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg9vngtHt0IhRUeZXv7ROy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rg9vngtHt0IhRUeZXv7ROy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8stQtvnBdQN6naAKGNfzYf"/>
+        <rdfs:label>ЛечащийВрач</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgifrQsSsP71FvRodacGFR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RgifrQsSsP71FvRodacGFR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ребенком признается лицо, не достигшее возраста восемнадцати лет (совершеннолетия)</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Семейный кодекс Российской Федерации от 29.12.1995 N 223-ФЗ (ред. от 06.02.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Ребенок</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RizUrCw7l9XqxOiTpAfhqa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RizUrCw7l9XqxOiTpAfhqa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">это результат производственной деятельности, осуществляемой по заказу в соответствии со спросом потребителя с целью изменения состояния потребляющих единиц (либо физического или интеллектуального состояния самого потребителя, либо принадлежащих ему предметов) или содействия обмену продуктами или финансовыми активами</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Приказ Росстата от 29.09.2017 N 643
+&quot;Об утверждении официальной статистической методологии формирования официальной статистической информации об объеме платных услуг населению в разрезе видов услуг&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Услуга</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmnKbFKm7KHfzvFrSCsMZq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmnKbFKm7KHfzvFrSCsMZq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJoP95H8qRAGE031cRNcQ3"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I. Процедуры, предусмотренные нормативными правовыми актами Российской Федерации
+
+1. Процедуры, связанные с предоставлением прав
+на земельный участок и подготовкой документации
+по планировке территории в отношении земельных участков,
+относящихся к землям населенных пунктов и имеющих вид
+разрешенного использования, позволяющий
+осуществлять жилищное строительство 2. Процедуры, связанные с заключением договоров
+подключения (технологического присоединения) объектов
+капитального строительства к сетям инженерно-технического
+обеспечения (к электрическим сетям), а также
+с архитектурно-строительным проектированием
+3. Процедуры, связанные с осуществлением
+строительства, реконструкции
+4. Процедуры, связанные с предоставлением
+разрешения на ввод объекта в эксплуатацию, государственной
+регистрацией прав на построенный объект, заключением
+договоров энерго-, тепло-, водо-, газоснабжения
+и водоотведения
+II. Процедуры, связанные с особенностями
+осуществления градостроительной деятельности
+на территориях субъектов Российской Федерации
+и территориях муниципальных образований (применяются
+в случае, если такие процедуры и порядок их проведения
+установлены нормативным правовым актом субъекта
+Российской Федерации или муниципальным правовым
+актом представительного органа
+местного самоуправления)</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Постановление Правительства РФ от 30.04.2014 N 403 (ред. от 21.12.2019) &quot;Об исчерпывающем перечне процедур в сфере жилищного строительства&quot; (вместе с &quot;Правилами внесения изменений в исчерпывающий перечень процедур в сфере жилищного строительства&quot;, &quot;Правилами ведения реестра описаний процедур, указанных в исчерпывающем перечне процедур в сфере жилищного строительства&quot;)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ИсчерпывающийПереченьАдминистративныхПроцедурВСфереЖилищногоСтроительства</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%A1%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%9F%D1%80%D0%B0%D0%B2%D0%B0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Ume6nbD3nCsK9uQxzFzqn"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7IkdeX9mkmhlp5KREu4ItW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Общественно-политическое образование, характеризующееся наличием особой системы органов и учреждений политической власти и правовых норм, четко ограниченной территорией, на которую распространяется единая конституция и юрисдикция.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Постановление N 47-13 Межпарламентской Ассамблеи государств - участников СНГ &quot;О Глоссарии терминов и понятий, используемых государствами - участниками СНГ в пограничной сфере&quot; (Принято в г. Санкт-Петербурге 13.04.2018)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Государство</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%94%D0%BE%D0%BB%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%94%D0%BE%D0%BB%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">лицо, постоянно, временно или по специальному полномочию осуществляющее функции представителя власти либо выполняющее организационно-распорядительные, административно-хозяйственные функции в государственном органе или органе местного самоуправления</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 02.05.2006 N 59-ФЗ (ред. от 27.12.2018) &quot;О порядке рассмотрения обращений граждан Российской Федерации&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ДолжностноеЛицо</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Прикладной инструмент достижения целей, который, в отличие от цели, может обладать конкретным сроком выполнения</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Правовые основы общественного контроля в Российской Федерации: Постатейный научно-практический комментарий к Федеральному закону от 21 июля 2014 г. N 212-ФЗ &quot;Об основах общественного контроля в Российской Федерации&quot; (под общ. ред. М.А. Федотова) (&quot;Статут&quot;, 2017)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Задача</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9eUqyxS3MG4MMcztNvWvus"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%94%D0%BE%D0%BB%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%A6%D0%B5%D0%BB%D1%8C"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RtQBQnYbOQYWiRyJfcplwo"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Проект (программа), обеспечивающий достижение целей и целевых показателей, выполнение задач, определенных Указом Президента Российской Федерации от 7 мая 2018 г. N 204 &quot;О национальных целях и стратегических задачах развития Российской Федерации на период до 2024 года&quot;, а также при необходимости достижение дополнительных показателей и выполнение дополнительных задач по поручению и (или) указанию Президента Российской Федерации, поручению Председателя Правительства Российской Федерации, Правительства Российской Федерации, решению Совета при Президенте Российской Федерации по стратегическому развитию и национальным проектам, президиума Совета и подлежащий разработке в соответствии с Указом</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Положение об организации проектной деятельности в правительстве Российской Федерации, утверждено постановлением Правительства Российской Федерации от 31 октября 2018 г. N 1288</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>НациональныйПроект</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82">
+        <rdfs:label>Объект</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%A1%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%9F%D1%80%D0%B0%D0%B2%D0%B0"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Компания, фирма, проект, предприятие, учреждение, завод, фабрика, объединение, орган власти, общественный институт или ассоциация и т.п. либо их части, входящие или не входящие в их состав, различных форм собственности, которые имеют собственные функции и управление. В организациях, имеющих более одного структурного подразделения, каждое отдельно взятое структурное подразделение может рассматриваться как организация.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">МЕЖГОСУДАРСТВЕННЫЙ СТАНДАРТ СИСТЕМА СТАНДАРТОВ БЕЗОПАСНОСТИ ТРУДА СИСТЕМЫ УПРАВЛЕНИЯ ОХРАНОЙ ТРУДА Введен в действие Приказом Ростехрегулирования от 10 июля 2007 г. N 169-ст</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Организация</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBnp6svA27U7MhmmUfqqba8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7IkdeX9mkmhlp5KREu4ItW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Обобщенная характеристика какого-либо объекта, процесса или его результата, понятия или их свойств, обычно выраженная в численной форме.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Приказ Тендерного комитета г. Москвы от 05.08.2014 N 70-01-125/14 &quot;Об утверждении Методики определения рейтинга поставщика Портала поставщиков&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Показатель</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">комплекс взаимосвязанных мероприятий, направленных на получение уникальных результатов в условиях временных и ресурсных ограничений
+Целенаправленная деятельность временного характера, предназначенная для создания уникального продукта или услуги. Реализации проекта присущи специфические способы организации работ и управления.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Постановление Правительства РФ от 07.03.2018 N 237 (ред. от 29.01.2020)
+&quot;Об утверждении Правил предоставления средств государственной поддержки из федерального бюджета бюджетам субъектов Российской Федерации для поощрения муниципальных образований - победителей Всероссийского конкурса лучших проектов создания комфортной городской среды&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Проект</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%A0%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Последствия цепочки действий или событий, выраженных качественно или количественно конечного итога, следствия, последствия, завершающего собой какие-нибудь действия, явления.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Экологические преступления, посягающие на безопасность водных объектов характеристика и разграничение со смежными деликтами монография А.И. Зверева под редакцией доктора юридических наук, профессора Ю.В. Грачевой</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Результат</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%A1%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%A1%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82">
+        <rdfs:label>Субъект</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%A1%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%9F%D1%80%D0%B0%D0%B2%D0%B0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%A1%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%9F%D1%80%D0%B0%D0%B2%D0%B0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%A1%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <rdfs:label>СубъектПрава</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%94%D0%BE%D0%BB%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">являются ответственные работники федеральных органов исполнительной власти, органов исполнительной власти субъектов Российской Федерации, иных органов и организаций, деятельность которых направлена на достижение целей, показателей, результатов и контрольных точек, выполнение задач и мероприятий в соответствии с паспортом национального проекта или паспортом федерального проекта, указаниями и поручениями руководителя национального проекта или руководителя федерального проекта.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Постановление Правительства РФ от 31.10.2018 N 1288 (ред. от 26.03.2020) &quot;Об организации проектной деятельности в Правительстве Российской Федерации&quot; (вместе с &quot;Положением об организации проектной деятельности в Правительстве Российской Федерации&quot;)
+IX. Участники национального проекта, участники
+федерального проекта</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>УчастникФедеральногоПроект</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9eUqyxS3MG4MMcztNvWvus"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%94%D0%BE%D0%BB%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBzddgoxsuMsP8Lxl5uRItu"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDvh3DzWebFWRHUP9mE1HfW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUaT1Kq6b3RTxp3jalu2Of"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%A6%D0%B5%D0%BB%D1%8C"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/%D0%A1%D0%BE%D1%81%D1%82%D0%BE%D0%B8%D1%82%D0%98%D0%B7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Проект, обеспечивающий достижение целей, целевых и дополнительных показателей, выполнение задач национального проекта и (или) достижение иных целей и показателей, выполнение иных задач по поручению и (или) указанию Президента Российской Федерации, поручению Председателя Правительства Российской Федерации, Правительства Российской Федерации, решению Совета, президиума Совета, поручению куратора соответствующего национального проекта</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Положение об организации проектной деятельности в правительстве российской федерации, утверждено постановлением Правительства Российской Федерации от 31 октября 2018 г. N 1288</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ФедеральныйПроект</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%A1%D1%83%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%9F%D1%80%D0%B0%D0%B2%D0%B0"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Ume6nbD3nCsK9uQxzFzqn"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBMhmC5OlIN2nlDcXXkqkHt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Ume6nbD3nCsK9uQxzFzqn"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCgL1fMNBIAXlw8bcdzGcxB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Ume6nbD3nCsK9uQxzFzqn"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RgifrQsSsP71FvRodacGFR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8hd38It4EwgS5tadFZisyo"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8seznRZOQ7ucZWqg4ZcBo"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8wrVa1FELDU7xPVJg9L7qo"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7MFZy3rEWNDVSSdu8zdyMu"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9EUviJVauo2GccF6NhpsTQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9SuoyuwtS7E4X5GAY2fqUW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBln93TmrUlyMmcwTUtcKFQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9ArsEdZXOQ5j3YTsPGarrp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBln93TmrUlyMmcwTUtcKFQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9c4FN0fS5d5sRJDbG6t40i"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCTOahHMbElfTTbe0tCzZZq"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDFtorvArpJcN3JrkZIQL8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7d5LnRHwJnxD7gA8rc6KZS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDFtorvArpJcN3JrkZIQL8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCQVBIqfZ5ewDfXT20OHgSG"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RWyfBeblWPLDgnxOKnzwqg"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDfINJChulXB5OnR96rNQKh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9ygyqQhylsCB24oIuFo9SD"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RF6EWg6B8e5cdZtZX7dA8K"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Граждане Российской Федерации, иностранные граждане и лица без гражданства</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Налоговый кодекс Российской Федерации (часть первая)&quot; от 31.07.1998 N 146-ФЗ (ред. от 27.12.2019) (с изм. и доп., вступ. в силу с 01.01.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ФизическоеЛицо</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%A6%D0%B5%D0%BB%D1%8C -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%A6%D0%B5%D0%BB%D1%8C">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/%D0%A1%D0%BE%D1%81%D1%82%D0%BE%D0%B8%D1%82%D0%98%D0%B7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%9F%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Желаемое состояние, идеальный мысленно предвосхищаемый результат деятельности, предмет устремления.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Понятие и основное содержание целей и задач управленческой деятельности в органах прокуратуры Российской Федерации
+М.С. Братановская, доцент кафедры административного и 
+финансового права Российского экономического университета им. Г.В. Плеханова, кандидат юридических наук, доцент Журнал &quot;Гражданин и право&quot;, N 2, февраль 2017 г.</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>Цель</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%D0%9B%D0%B8%D1%86%D0%BE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Ume6nbD3nCsK9uQxzFzqn"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9z1fMLcsc2EuMkliksdMqv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Ume6nbD3nCsK9uQxzFzqn"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBMhmC5OlIN2nlDcXXkqkHt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8wrVa1FELDU7xPVJg9L7qo"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7MFZy3rEWNDVSSdu8zdyMu"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9EVWcg2If2o2z1OON7ClOs"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDWv8cO5s3pR6D6UsP8B3xI"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCo6FeeIzo5Sj30ve2O6GUl"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDRN02o7ZVqRJJCB8sd1JM6"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R9gdNT1YH0LvIXYoX0eAAM2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Юридическим лицом признается организация, которая имеет обособленное имущество и отвечает им по своим обязательствам, может от своего имени приобретать и осуществлять гражданские права и нести гражданские обязанности, быть истцом и ответчиком в суде</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Гражданский кодекс Российской Федерации (часть первая)&quot; от 30.11.1994 N 51-ФЗ (ред. от 16.12.2019)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ЮридическоеЛицо</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R80FZ7RHInZsEFzmltLKUXA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R80FZ7RHInZsEFzmltLKUXA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82"/>
+        <rdfs:label>Здравоохранение</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gdNT1YH0LvIXYoX0eAAM2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9gdNT1YH0LvIXYoX0eAAM2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RC34X4thdXLt3E2eWvqKvOT"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Содержит сведения о юридических лицах и об индивидуальных предпринимателях, отвечающих условиям отнесения к субъектам малого и среднего предпринимательства, установленным статьей 4 209-ФЗ, вносятся в единый реестр субъектов малого и среднего предпринимательства.
+Ведение единого реестра субъектов малого и среднего предпринимательства осуществляется федеральным органом исполнительной власти, осуществляющим функции по контролю и надзору за соблюдением законодательства о налогах и сборах</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Федеральный закон от 24.07.2007 N 209-ФЗ (ред. от 27.12.2019) &quot;О развитии малого и среднего предпринимательства в Российской Федерации&quot; (с изм. и доп., вступ. в силу с 01.01.2020)</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ЕдиныйРеестрСубъектовМалогоИСреднегоПредпринимательства</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9uwzBgmfxZEZxWsOAG5qJ5 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9uwzBgmfxZEZxWsOAG5qJ5">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBMhmC5OlIN2nlDcXXkqkHt"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Портал предоставляющий возможность регистрации личных кабинетов для медицинских работников, а также организаций, осуществляющих образовательную деятельность по дополнительным профессиональным программам медицинского и фармацевтического образования, выбора медицинскими работниками образовательных программ повышения квалификации и создания предварительной заявки на обучение.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Письмо Минздрава России от 09.11.2016 N 16-0/10/2-7064 &quot;О повышении квалификации медицинских работников за счет средств нормированного страхового запаса территориального фонда обязательного медицинского страхования&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>ПорталНепрерывногоМедицинскогоИФармацевтическогоОбразованияМинздраваРоссии</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0AJLLROBfBxMLFurmzIfO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD0AJLLROBfBxMLFurmzIfO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7IkdeX9mkmhlp5KREu4ItW"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/%D0%AF%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7IkdeX9mkmhlp5KREu4ItW"/>
+            </owl:Restriction>
+        </rdf:type>
+        <webprotege:RvPmUdunq5zLodeKRhFC4Y rdf:resource="http://webprotege.stanford.edu/RF6EWg6B8e5cdZtZX7dA8K"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Российская Федерация состоит из республик, краев, областей, городов федерального значения, автономной области, автономных округов - равноправных субъектов Российской Федерации</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Конституция Российской Федерации</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>СубъектРоссийскойФедерации</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDEdqpkdzPhPa1n4eKcdY0v -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDEdqpkdzPhPa1n4eKcdY0v">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBXWQJ5AJWOcdyKwyyidob3"/>
+        <rdfs:label>МинистерствоКультурыРоссийскойФедерации</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDXE0CwqH5Pu2n5f4eNrVn8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDXE0CwqH5Pu2n5f4eNrVn8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBXWQJ5AJWOcdyKwyyidob3"/>
+        <webprotege:RBi6WWqx8Ai8CfmHA1AbF3E rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Министерство экономического развития Российской Федерации (Минэкономразвития России) является федеральным органом исполнительной власти, осуществляющим функции по выработке государственной политики и нормативно-правовому регулированию в сфере анализа и прогнозирования социально-экономического развития, развития предпринимательской деятельности, в том числе среднего и малого бизнеса, туристской деятельности, туризма, защиты прав юридических лиц и индивидуальных предпринимателей при осуществлении государственного контроля (надзора) и муниципального контроля, в том числе государственного надзора за деятельностью саморегулируемых организаций кадастровых инженеров, национального объединения саморегулируемых организаций кадастровых инженеров, лицензирования, оценки регулирующего воздействия, аккредитации юридических лиц и индивидуальных предпринимателей в национальной системе аккредитации, безопасности процессов производства, саморегулирования профессиональной и предпринимательской деятельности, государственного надзора за деятельностью саморегулируемых организаций оценщиков, государственного контроля (надзора) за деятельностью саморегулируемых организаций арбитражных управляющих, поддержки социально ориентированных некоммерческих организаций, публичной нефинансовой отчетности, внешнеэкономической деятельности (за исключением внешней торговли), имущественных отношений, несостоятельности (банкротства) и финансового оздоровления, оценочной деятельности, земельных отношений (за исключением земель сельскохозяйственного назначения, а также перевода земель водного фонда и земель особо охраняемых территорий и объектов (в части, касающейся земель особо охраняемых природных территорий) в земли другой категории), ведения Единого государственного реестра недвижимости, осуществления государственного кадастрового учета недвижимого имущества, государственной регистрации прав на недвижимое имущество и сделок с ним, предоставления сведений, содержащихся в Едином государственном реестре недвижимости, кадастровой деятельности, деятельности саморегулируемых организаций кадастровых инженеров, национального объединения саморегулируемых организаций кадастровых инженеров, государственной кадастровой оценки, государственного мониторинга земель (за исключением земель сельскохозяйственного назначения), государственного земельного надзора (за исключением случаев, когда указанные полномочия в соответствии с законодательством Российской Федерации осуществляют иные федеральные органы исполнительной власти), геодезии и картографии, создания и развития инфраструктуры пространственных данных Российской Федерации, официального статистического учета, инвестиционной деятельности и государственных инвестиций, формирования межгосударственных и федеральных целевых программ (долгосрочных целевых программ), ведомственных целевых программ, разработки и реализации программ социально-экономического развития Российской Федерации, создания и функционирования особых экономических зон на территории Российской Федерации, функционирования особого правового режима и функционирования свободной экономической зоны, а также в случаях, установленных Федеральным законом &quot;О развитии Республики Крым и города федерального значения Севастополя и свободной экономической зоне на территориях Республики Крым и города федерального значения Севастополя&quot;, в сфере социально-экономического развития Республики Крым и г. Севастополя, социально-экономического развития субъектов Российской Федерации и муниципальных образований, районов Крайнего Севера, осуществления приграничного и межрегионального сотрудничества, территориального планирования, разработки и реализации комплексных проектов социально-экономического развития федеральных округов, координации отбора и реализации приоритетных инвестиционных проектов федеральных округов, а также по предоставлению государственной поддержки за счет средств Инвестиционного фонда Российской Федерации, методического обеспечения разработки и реализации региональных и муниципальных программ в области энергосбережения и повышения энергетической эффективности, а также оценки эффективности региональных и муниципальных программ в области энергосбережения и повышения энергетической эффективности.</webprotege:RBi6WWqx8Ai8CfmHA1AbF3E>
+        <webprotege:RCUhLPfEPL5YNaT2spdLOpb rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Постановление Правительства РФ от 05.06.2008 N 437 (ред. от 09.08.2019) &quot;О Министерстве экономического развития Российской Федерации&quot;</webprotege:RCUhLPfEPL5YNaT2spdLOpb>
+        <rdfs:label>МинистерствоЭкономическогоРазвитияРоссийскойФедерации</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RF6EWg6B8e5cdZtZX7dA8K -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RF6EWg6B8e5cdZtZX7dA8K">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/%D0%AF%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>РоссийскаяФедерация</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
